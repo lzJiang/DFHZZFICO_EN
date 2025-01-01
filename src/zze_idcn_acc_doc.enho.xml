@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>会计凭证打印输出-增强</SHORTTEXT>
+   <SPOT_NAME>IDCN_ACC_DOC_CLOUD</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>IDCN_ACC_DOC_CLOUD</SPOT_NAME>
+     <BADI_NAME>IDCN_ACC_DOC_CS_CLOUD</BADI_NAME>
+     <IMPL_NAME>ZIDCN_ACC_DOC_CS_CLOUD</IMPL_NAME>
+     <IMPL_CLASS>ZZCL_IDCN_ACC_DOC_CS_CLOUD</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <LOCKED_IN_CUSTOMIZING>X</LOCKED_IN_CUSTOMIZING>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

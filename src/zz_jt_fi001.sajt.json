@@ -1,0 +1,25 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "项目主数据推送JOB模板",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZZ_JCE_FI001"
+  },
+  "parameters": {
+    "singleValueParameters": [
+      {
+        "name": "PROCESS",
+        "value": "2"
+      }
+    ],
+    "valueRangesParameters": [
+      {
+        "name": "PROJECT",
+        "valueRanges": []
+      }
+    ]
+  }
+}

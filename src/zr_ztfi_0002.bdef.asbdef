@@ -1,0 +1,45 @@
+managed implementation in class ZBP_R_ZTFI_0002 unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_ZTFI_0002 alias ZrZtfi0002
+persistent table ZZTFI_0002
+draft table ZZTFI_0002_D
+etag master LastChangedAt
+lock master total etag LastChangedAt
+authorization master( global )
+
+{
+  field ( mandatory : create )
+   Zcurrency;
+
+  field ( readonly )
+   CreatedBy,
+   CreatedAt,
+   LastChangedBy,
+   LastChangedAt;
+
+  field ( readonly : update )
+   Zcurrency;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZZTFI_0002
+  {
+    Zcurrency = zcurrency;
+    Waers = waers;
+    Racct = racct;
+    CreatedBy = created_by;
+    CreatedAt = created_at;
+    LastChangedBy = last_changed_by;
+    LastChangedAt = last_changed_at;
+  }
+}

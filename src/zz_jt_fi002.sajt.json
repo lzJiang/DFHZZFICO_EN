@@ -1,0 +1,25 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "收款凭证后台创建",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZZ_JCE_FI002"
+  },
+  "parameters": {
+    "singleValueParameters": [
+      {
+        "name": "PROCESS",
+        "value": ""
+      }
+    ],
+    "valueRangesParameters": [
+      {
+        "name": "NUMBER",
+        "valueRanges": []
+      }
+    ]
+  }
+}
